@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		EA18CBD8285DAB6E00A6765C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18CBD7285DAB6E00A6765C /* AppDelegate.swift */; };
 		EA18CBDA285DAB6E00A6765C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18CBD9285DAB6E00A6765C /* SceneDelegate.swift */; };
-		EA18CBDC285DAB6E00A6765C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18CBDB285DAB6E00A6765C /* ViewController.swift */; };
 		EA18CBDF285DAB6E00A6765C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA18CBDD285DAB6E00A6765C /* Main.storyboard */; };
 		EA18CBE1285DAB7000A6765C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA18CBE0285DAB7000A6765C /* Assets.xcassets */; };
 		EA18CBE4285DAB7000A6765C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA18CBE2285DAB7000A6765C /* LaunchScreen.storyboard */; };
+		EA3E2E2E2869F4390068649F /* DockItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3E2E2C2869F4390068649F /* DockItem+CoreDataClass.swift */; };
+		EA3E2E2F2869F4390068649F /* DockItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3E2E2D2869F4390068649F /* DockItem+CoreDataProperties.swift */; };
+		EA4F8C672860D466000C8FE8 /* DockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F8C662860D466000C8FE8 /* DockViewController.swift */; };
+		EA7723AE2892E62C0009759C /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7723AD2892E62C0009759C /* UserDefaults+Extensions.swift */; };
+		EA8014572871ACC500355030 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8014562871ACC500355030 /* EditViewController.swift */; };
+		EAB7A849285E0D76000BA543 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7A848285E0D76000BA543 /* OnboardingViewController.swift */; };
+		EAB7A84E285E1688000BA543 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7A84D285E1688000BA543 /* UIView+Extensions.swift */; };
+		EAB7A852285E176F000BA543 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7A851285E176F000BA543 /* OnboardingSlide.swift */; };
+		EAB7A855285E19FF000BA543 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7A854285E19FF000BA543 /* OnboardingCollectionViewCell.swift */; };
+		EABBE9A9286CBE9300DE715A /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABBE9A8286CBE9300DE715A /* ToDoViewController.swift */; };
+		EABD6326285F72AF00742824 /* UserInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6325285F72AF00742824 /* UserInputViewController.swift */; };
+		EABD632A285F8BDD00742824 /* Docket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EABD6328285F8BDD00742824 /* Docket.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA18CBD4285DAB6E00A6765C /* Docket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Docket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA18CBD7285DAB6E00A6765C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA18CBD9285DAB6E00A6765C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA18CBDB285DAB6E00A6765C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA18CBDE285DAB6E00A6765C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA18CBE0285DAB7000A6765C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA18CBE3285DAB7000A6765C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA18CBE5285DAB7000A6765C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3E2E2C2869F4390068649F /* DockItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DockItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EA3E2E2D2869F4390068649F /* DockItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DockItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EA4F8C662860D466000C8FE8 /* DockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockViewController.swift; sourceTree = "<group>"; };
+		EA7723AD2892E62C0009759C /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
+		EA8014562871ACC500355030 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		EAB7A848285E0D76000BA543 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		EAB7A84D285E1688000BA543 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		EAB7A851285E176F000BA543 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		EAB7A854285E19FF000BA543 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		EABBE9A8286CBE9300DE715A /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		EABD6325285F72AF00742824 /* UserInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputViewController.swift; sourceTree = "<group>"; };
+		EABD6329285F8BDD00742824 /* Docket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Docket.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,90 @@
 		EA18CBD6285DAB6E00A6765C /* Docket */ = {
 			isa = PBXGroup;
 			children = (
+				EA3E2E322869F4BD0068649F /* DockItem */,
+				EAB7A84C285E1659000BA543 /* Extensions */,
+				EAB7A846285E0D29000BA543 /* CustomViews */,
+				EAB7A845285E0D1A000BA543 /* Views */,
+				EAB7A844285E0D08000BA543 /* Models */,
 				EA18CBD7285DAB6E00A6765C /* AppDelegate.swift */,
 				EA18CBD9285DAB6E00A6765C /* SceneDelegate.swift */,
-				EA18CBDB285DAB6E00A6765C /* ViewController.swift */,
 				EA18CBDD285DAB6E00A6765C /* Main.storyboard */,
 				EA18CBE0285DAB7000A6765C /* Assets.xcassets */,
 				EA18CBE2285DAB7000A6765C /* LaunchScreen.storyboard */,
 				EA18CBE5285DAB7000A6765C /* Info.plist */,
+				EABD6328285F8BDD00742824 /* Docket.xcdatamodeld */,
 			);
 			path = Docket;
+			sourceTree = "<group>";
+		};
+		EA3E2E322869F4BD0068649F /* DockItem */ = {
+			isa = PBXGroup;
+			children = (
+				EA3E2E2C2869F4390068649F /* DockItem+CoreDataClass.swift */,
+				EA3E2E2D2869F4390068649F /* DockItem+CoreDataProperties.swift */,
+			);
+			path = DockItem;
+			sourceTree = "<group>";
+		};
+		EA4F8C652860D44D000C8FE8 /* Dock */ = {
+			isa = PBXGroup;
+			children = (
+				EA4F8C662860D466000C8FE8 /* DockViewController.swift */,
+				EABBE9A8286CBE9300DE715A /* ToDoViewController.swift */,
+				EA8014562871ACC500355030 /* EditViewController.swift */,
+			);
+			path = Dock;
+			sourceTree = "<group>";
+		};
+		EAB7A844285E0D08000BA543 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7A851285E176F000BA543 /* OnboardingSlide.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EAB7A845285E0D1A000BA543 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA4F8C652860D44D000C8FE8 /* Dock */,
+				EABD6324285F727700742824 /* UserInput */,
+				EAB7A847285E0D38000BA543 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EAB7A846285E0D29000BA543 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		EAB7A847285E0D38000BA543 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7A848285E0D76000BA543 /* OnboardingViewController.swift */,
+				EAB7A854285E19FF000BA543 /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		EAB7A84C285E1659000BA543 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7A84D285E1688000BA543 /* UIView+Extensions.swift */,
+				EA7723AD2892E62C0009759C /* UserDefaults+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EABD6324285F727700742824 /* UserInput */ = {
+			isa = PBXGroup;
+			children = (
+				EABD6325285F72AF00742824 /* UserInputViewController.swift */,
+			);
+			path = UserInput;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +234,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA18CBDC285DAB6E00A6765C /* ViewController.swift in Sources */,
+				EAB7A852285E176F000BA543 /* OnboardingSlide.swift in Sources */,
 				EA18CBD8285DAB6E00A6765C /* AppDelegate.swift in Sources */,
+				EA4F8C672860D466000C8FE8 /* DockViewController.swift in Sources */,
 				EA18CBDA285DAB6E00A6765C /* SceneDelegate.swift in Sources */,
+				EA3E2E2F2869F4390068649F /* DockItem+CoreDataProperties.swift in Sources */,
+				EA8014572871ACC500355030 /* EditViewController.swift in Sources */,
+				EAB7A84E285E1688000BA543 /* UIView+Extensions.swift in Sources */,
+				EABBE9A9286CBE9300DE715A /* ToDoViewController.swift in Sources */,
+				EAB7A849285E0D76000BA543 /* OnboardingViewController.swift in Sources */,
+				EABD632A285F8BDD00742824 /* Docket.xcdatamodeld in Sources */,
+				EA3E2E2E2869F4390068649F /* DockItem+CoreDataClass.swift in Sources */,
+				EABD6326285F72AF00742824 /* UserInputViewController.swift in Sources */,
+				EA7723AE2892E62C0009759C /* UserDefaults+Extensions.swift in Sources */,
+				EAB7A855285E19FF000BA543 /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +449,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EABD6328285F8BDD00742824 /* Docket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EABD6329285F8BDD00742824 /* Docket.xcdatamodel */,
+			);
+			currentVersion = EABD6329285F8BDD00742824 /* Docket.xcdatamodel */;
+			path = Docket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EA18CBCC285DAB6E00A6765C /* Project object */;
 }
